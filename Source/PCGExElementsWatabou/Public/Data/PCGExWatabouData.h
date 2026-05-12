@@ -40,7 +40,9 @@ public:
 	// Import data for this 
 	UPROPERTY(VisibleAnywhere, Instanced, Category=ImportSettings)
 	TObjectPtr<class UAssetImportData> AssetImportData;
+#endif
 	
+#if WITH_EDITOR
 	// UObject interface
 	virtual void PostInitProperties() override;
 	virtual void GetAssetRegistryTags(FAssetRegistryTagsContext Context) const override;

@@ -22,7 +22,7 @@ void UPCGExWatabouData::Reset()
 }
 
 
-#if WITH_EDITORONLY_DATA
+#if WITH_EDITOR
 
 void UPCGExWatabouData::PostInitProperties()
 {
